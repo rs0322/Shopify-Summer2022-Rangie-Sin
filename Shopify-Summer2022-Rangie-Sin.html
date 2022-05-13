@@ -30,24 +30,60 @@
             line-height: 1.5em;
         }
 
+        .screen{
+            margin:100px;
+        }
+
+        .protoype{
+            width:100%;
+        }
+
+        #mobile{
+            width:35%;
+            float:left;
+
+        }
+
+        #tablet{
+            width:65%;
+            float:left;
+        }
+
+        @media screen and (max-width: 834px){
+        .screen{
+            margin:auto;
+        }
+            
+        #mobile{
+            width:70%;
+        }
+
+        #tablet{
+            width:100%;
+        } 
+        }
+
     </Style>
     <title>Bookomè</title>
 </head>
 <body>
-    <div style="margin:100px;">
+    <div class ="screen">
         <h2>Welcome to visit Bookomè</h2>
         <p>Bookomè is a social sharing app that brings school-aged children together by sharing their favorite books, expressing their views on the books they have read, and connecting them with other children of the same age by sharing different book reviews. Moreover, parents can find inspiration and purchase books for their children and their friends.</p>
-        <img src="https://drive.google.com/file/d/1nfttRWITKfrHmamp6KpQ8O512HoO5QlF/view?usp=sharing" width="100%"/>
-        <table style="width:100%;">
-         <tr>
-            <td style="width:35%;"><h3>Hi-Fi Prototype (Mobile View)</h3></th>
-            <td style="width:65%;"><h3>Hi-Fi Prototype (Tablet View)</h3></th>
-         </tr>
-         <tr>
-            <td style="vertical-align: top;"><iframe src="https://xd.adobe.com/embed/17bdd697-6ad1-44f6-9e5e-47fb7760e91a-42ee/" width="250" height="541" frameborder="0" allowfullscreen="allowfullscreen"></iframe></td>
-            <td style="vertical-align: top;"><iframe src="https://xd.adobe.com/embed/001a03b4-e410-4e63-b747-93fddc20bb6d-5549/" width="609" height="812" frameborder="0" allowfullscreen="allowfullscreen"></iframe></td>
-         </tr>
-        </table>
+        <img src="https://github.com/rs0322/Shopify-Summer2022-Rangie-Sin/blob/main/bookome.png?raw=true" width="100%"/>
+    </br></br></br>
+    </br>
+        <div class ="protoype">
+         <div id ="mobile">
+            <h3>Hi-Fi Prototype (Mobile View)</h3>
+            <iframe src="https://xd.adobe.com/embed/17bdd697-6ad1-44f6-9e5e-47fb7760e91a-42ee/" width="250" height="541" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+          </div>
+         <div id ="tablet"> 
+          <h3>Hi-Fi Prototype (Tablet View)</h3>
+          <iframe src="https://xd.adobe.com/embed/001a03b4-e410-4e63-b747-93fddc20bb6d-5549/" width="609" height="812" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+         </div>
+        </div>
     </div>
 </body>
 </html>
+
